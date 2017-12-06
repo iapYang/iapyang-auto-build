@@ -1,0 +1,27 @@
+{
+  "name": "iapyang-client",
+  "version": "0.0.0",
+  "description": "前端自动建站工具",
+  "main": "bin/index.js",
+  "bin": {
+    "iapyang-client": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://iapyang@github.com/iapYang/iapyang-client.git"
+  },
+  "author": "iapyang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iapYang/iapyang-client/issues"
+  },
+  "homepage": "https://github.com/iapYang/iapyang-client#readme",
+  "devDependencies": {
+    "babel-eslint": "^8.0.3",
+    "eslint": "^4.12.1",
+    "iapyang-eslint": "^1.0.1"
+  }
+}
