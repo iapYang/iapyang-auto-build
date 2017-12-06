@@ -17,3 +17,10 @@ files.forEach(name => {
         });
     }
 });
+
+const packageJson = fs.readFileSync(path.resolve(__dirname, `../package.json`), {
+    encoding: 'utf-8',
+});
+
+debugger;
+console.log(packageJson.devDependencies);
